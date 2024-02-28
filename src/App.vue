@@ -1,8 +1,18 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <app-simon-game />
+  </div>
 </template>
 
-<script></script>
+<script>
+import AppSimonGame from '@/components/AppSimonGame.vue';
+export default {
+  name: 'App',
+  components: {
+    AppSimonGame,
+  },
+};
+</script>
 
 <style>
 * {
